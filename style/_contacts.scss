@@ -1,0 +1,112 @@
+section.contact {
+  background-color: #ffffff;
+  div.wrapper {
+    margin: auto;
+  }
+  h2 {
+    color: $color;
+  }
+  p {
+    color: $color;
+    font-weight: 700;
+    letter-spacing: 0.26px;
+    padding-top: 0;
+    @media (min-width: 576px) {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+  }
+  form {
+    text-align: center;
+    li {
+      padding-bottom: 20px;
+      @media (min-width: 576px) {
+        padding-bottom: 30px;
+      }
+      @media (min-width: 768px) {
+        padding-bottom: 40px;
+      }
+    }
+    input {
+      width: 90%;
+      font-size: 2rem;
+      font-family: $font2;
+      font-weight: 400;
+      line-height: 3rem;
+      letter-spacing: 0.26px;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: 1px solid #2ecc71;
+      padding-bottom: 5px;
+      @media (min-width: 576px){
+        font-size: 2.5rem;
+      }
+    }
+    textarea {
+      width: 90%;
+      font-size: 2rem;
+      font-family: $font2;
+      font-weight: 400;
+      line-height: 3rem;
+      letter-spacing: 0.26px;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: 1px solid #2ecc71;
+      padding-bottom: 5px;
+      @media (min-width: 576px) {
+        font-size: 2.5rem;
+      }
+    }
+    input.button {
+      color: #ffffff;
+      border-bottom: none;
+      background-color: #2ecc71;
+      border-radius: 30px;
+      padding: 10px 0;
+      width: 40%;
+      @media (min-width: 576px) {
+        width: 30%;
+      }
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+      @media (min-width: 992px) {
+        width: 30%;
+      }
+    }
+    input.button:hover {
+      background-color: #1e491e;
+    }
+  }
+  div.contact {
+      li {
+        padding-bottom: 20px;
+      }
+    p {
+      text-align: left;
+      padding: 0;
+      font-weight: 400;
+    }
+    address {
+      margin: 0;
+    }
+    p.strong {
+      font-weight: 700;
+    }
+    a:link, a:visited {
+      color: $color;
+      line-height: 2.3rem;
+      letter-spacing: 0.2px;
+      display: block;
+      @media (min-width: 576px) {
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
+    }
+    a:hover {
+      color: $secondcolor;
+    }
+  }
+}

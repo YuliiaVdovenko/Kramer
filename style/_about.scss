@@ -1,0 +1,26 @@
+section.about {
+  background-color: $color;
+  div.wrapper {
+    width: 70%;
+  }
+  ul {
+    text-align: center;
+    padding-bottom: 30px;
+    p {
+      font-family: $font2;
+      font-size: 1.5rem;
+      letter-spacing: 0.4px;
+      line-height: 1.7rem;
+    }
+    span {
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      padding: 1rem 1.5rem;
+      font-size: 5rem;
+      color: #ffffff;
+    }
+  }
+  h2 {
+    color: #ffffff;
+  }
+}
